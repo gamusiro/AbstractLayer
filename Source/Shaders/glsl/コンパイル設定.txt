@@ -1,0 +1,6 @@
+$(SolutionDir)\Shaders\glsl\glslangValidator.exe -V -S vert %(Identity) -o "$(SolutionDir)%(FileName).spv"
+
+バーテックスの場合 vert
+ピクセルの場合　frag
+
+※コマンドラインで設定するので、ディレクトリに空白文字などがあると実行できないので気を付ける。
